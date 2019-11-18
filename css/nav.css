@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: AktivGrotesk-Regular;
+    src: url("/fonts/AktivGrotesk-Regular.otf") format("opentype");
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    font-family: AktivGrotesk-Regular;
+    background-color: black;
+}
+
+.logo {
+    color: white;
+    font-size: 10px; 
+    padding: 5px 20px;
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.nav-links li:first-child {
+    margin: 0 0 20px 0;
+}
+
+.nav-links li:last-child {
+    margin: 20px 0 30% 0;
+}
+
+/* a:hover { 
+    color: #00ff85;
+} */
+/* I haven't got the hover to work yet to work yet */
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.burger {
+    display: none;
+    padding: 20px;
+}
+
+.burger div{
+    width: 28px;
+    height: 4px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-out;
+        padding-left: 20px;
+    }
+
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .toggle1 {
+        transform: translateX(-80vw);
+    }
+
+    .toggle2 {
+        display: block;
+        transform: translate(37vw, 75vh);
+        transition: transform 0.1s ease; 
+        z-index: 1;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle1 .line1 {
+    transform: rotate(-45deg) translate(-5px,1.5px);
+}
+.toggle1 .line2 {
+    transform: rotate(45deg) translate(-5px,-1.5px);
+}
+

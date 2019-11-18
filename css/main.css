@@ -13,36 +13,43 @@
 .section-1 {
     height: 100vh;
     width: 100vw;
+    background: salmon;
 }
 
 .section-2 {
     height: 100vh;
     width: 100vw;
+    background: dodgerblue;
 }
 
 .section-3 {
     height: 100vh;
     width: 100vw;
+    background: salmon;
 }
 
 .section-4 {
     height: 100vh;
     width: 100vw;
+    background: dodgerblue;
 }
 
 .section-5 {
     height: 100vh;
     width: 100vw;
+    background: salmon;
 }
 
 .section-6 {
     height: 100vh;
     width: 100vw;
+    background: dodgerblue;
 }
 
 .section-7 {
     height: calc(100vh - 148px);
     width: 100vw;
+    background: salmon;
 }
 
 footer {
@@ -54,6 +61,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Aktiv-Grotesk, sans-serif;
+    font-size: 12px;
 }
 
 .footer1 {
@@ -61,13 +70,22 @@ footer {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .footer2 {
     height: 33%;
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icons {
+    margin: 0 13px;
 }
 
 .footer3 {
     height: 33%;
-    color: var(--green);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

@@ -61,8 +61,9 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Aktiv-Grotesk, sans-serif;
-    font-size: 12px;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 200;
+    font-size: 8px;
 }
 
 .footer1 {
@@ -81,6 +82,8 @@ footer {
 
 .social-media-icons {
     margin: 0 13px;
+    width: 29px;
+    height: 29px;
 }
 
 .footer3 {

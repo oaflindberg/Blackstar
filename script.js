@@ -3,13 +3,13 @@ const navSlide = () => {
     const nav = document.querySelector('.nav-links');
     const logo = document.querySelector('.logo');
     const navLinks = document.querySelectorAll('.nav-links li');
-    
+
     burger.addEventListener('click', () => {
         //Toggle Nav
         nav.classList.toggle('nav-active');
 
         //Animate Links
-        navLinks.forEach((link, index)=> {
+        navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = '';
             } else {
@@ -21,7 +21,19 @@ const navSlide = () => {
         burger.classList.toggle('toggle1');
         logo.classList.toggle('toggle2');
     });
-    
+
 }
 
 navSlide();
+
+
+// Get the scroll to top icon
+const scrollToTop = document.querySelector('.scroll-to-top');
+
+// Add eventListener to the scroll to top icon and when clicked scroll to top smoothly
+scrollToTop.addEventListener('click', (e) => {
+    window.scroll({
+        top: 0,
+        behavior: "smooth",
+    });
+})

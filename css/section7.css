@@ -1,0 +1,43 @@
+.section-7 {
+    color: white;
+    height: calc(100vh - 148px);
+    width: 100vw;
+    background: black;
+    font-family: AktivGrotesk;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid goldenrod;
+    padding: 20px;
+}
+
+.sign-up-text {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.green-paragraph {
+    color: var(--green);
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.form-test {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-test2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.label-text {
+    font-weight: 300;
+    font-size: 14px;
+}

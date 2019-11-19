@@ -17,9 +17,6 @@
     align-items: center;
     text-align: center;
     padding: 20px;
-}
-
-.sign-up-text {
     font-weight: bold;
     font-size: 34px;
 }
@@ -28,6 +25,8 @@
     color: var(--green);
     font-weight: 300;
     font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .form {
@@ -47,13 +46,22 @@
 
 .form-test1 {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin-top: 40px;
 }
 
 .form-test2 {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+
+}
+
+.form-test3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 .name {
@@ -76,16 +84,21 @@
     height: 40px;
 }
 
+.label-country {
+    margin-left: 10px;
+}
+
 .label-text {
     font-weight: 300;
     font-size: 14px;
+    padding-bottom: 10px;
 }
 
 .submit {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .submit-button {
@@ -100,7 +113,8 @@
 }
 
 .scroll-to-top {
-    margin-top: 120px;
+    margin-top: 50px;
+    cursor: pointer;
 }
 
 .divider-line {

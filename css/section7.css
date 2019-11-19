@@ -8,7 +8,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid goldenrod;
+    padding: 20px;
+}
+
+.sign-up-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 20px;
 }
 
@@ -23,21 +30,63 @@
     font-size: 12px;
 }
 
-.form-test {
+.form {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    /* border: 2px solid goldenrod; */
+    /* height: 400px; */
+}
+
+.email {
+    width: 90vw;
+    box-shadow: inset 0px 4px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    background: var(--gray);
+    border: 2px inset white;
+    height: 40px;
+}
+
+.form-test1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 .form-test2 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px;
+    justify-content: flex-start;
+    ;
+}
+
+.name {
+    width: 42.3vw;
+    margin-right: 10px;
+    box-shadow: inset 0px 4px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    background: var(--gray);
+    border: 2px inset white;
+    height: 40px;
+}
+
+.country {
+    width: 42.3vw;
+    margin-left: 10px;
+    box-shadow: inset 0px 4px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    background: var(--gray);
+    border: 2px inset white;
+    height: 40px;
 }
 
 .label-text {
     font-weight: 300;
     font-size: 14px;
+}
+
+.divider-line {
+    height: 3px;
+    border-radius: 3px;
+    width: 90vw;
+    background: white;
 }

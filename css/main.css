@@ -1,3 +1,14 @@
+@font-face {
+    font-family: aktiv-grotesk-bold;
+    src: url(/Users/Andreas/Library/Fonts/AktivGrotesk-Bold.otf)
+}
+
+@font-face {
+    font-family: aktiv-grotesk-light;
+    src: url(/Users/Andreas/Library/Fonts/AktivGrotesk-Light.otf)
+}
+
+
 *,
 *::before,
 *::after {
@@ -78,7 +89,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: aktiv-grotesk, sans-serif;
+    font-family: aktiv-grotesk-light, sans-serif;
     font-weight: 200;
     font-size: 8px;
 }
@@ -108,4 +119,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.underline {
+    text-decoration: underline;
 }

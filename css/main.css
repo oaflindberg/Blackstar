@@ -1,11 +1,11 @@
 @font-face {
     font-family: aktiv-grotesk-bold;
-    src: url(/Users/Andreas/Library/Fonts/AktivGrotesk-Bold.otf)
+    src: url(/Library/Fonts/AktivGrotesk-Bold.otf) format("opentype");
 }
 
 @font-face {
     font-family: aktiv-grotesk-light;
-    src: url(/Users/Andreas/Library/Fonts/AktivGrotesk-Light.otf)
+    src: url(/Library/Fonts/AktivGrotesk-Light.otf) format("opentype");
 }
 
 

@@ -56,7 +56,6 @@
 .form-test2 {
     display: flex;
     justify-content: flex-start;
-    ;
 }
 
 .name {
@@ -86,7 +85,7 @@
 
 .divider-line {
     height: 3px;
-    border-radius: 3px;
+    border-radius: 6px;
     width: 90vw;
     background: white;
 }

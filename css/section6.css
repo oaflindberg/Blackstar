@@ -1,0 +1,30 @@
+.section-6 {
+    background: black;
+    color: white;
+    font-family: AktivGrotesk;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+}
+
+.merch-text {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.merch-title {
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.merch-slogan {
+
+    font-weight: 300;
+    font-size: 20px;
+}

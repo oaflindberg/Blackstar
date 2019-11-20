@@ -1,0 +1,10 @@
+.section-5 {
+    background: black;
+    background-image: url(images/background.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: AktivGrotesk;
+    height: 100vh;
+    width: 100vw;
+}

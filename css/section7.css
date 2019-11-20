@@ -84,8 +84,16 @@
     height: 40px;
 }
 
+.label-email {
+    padding-left: 2px;
+}
+
+.label-name {
+    padding-left: 2px;
+}
+
 .label-country {
-    margin-left: 10px;
+    padding-left: 12px;
 }
 
 .label-text {

@@ -45,18 +45,25 @@
                 events. </p>
         </div>
         <form class="form" action="post">
-            <label class="label-text" for="email">Email address</label>
+            <label class="label-email label-text" for="email">Email address</label>
             <input class="email" id="email" type="email">
 
             <div class="form-test3">
                 <div class="form-test1">
 
-                    <label class="label-text" for="name">Name</label>
+                    <label class="label-name label-text" for="name">Name</label>
                     <input class="name" id="name" type="text">
                 </div>
                 <div class="form-test2">
                     <label class="label-text label-country" for="country">Country</label>
-                    <input class="country" id="country" type="text">
+                    <select class="country" name="country" id="country">
+                        <option value=""> </option>
+                        <option value="Sweden">Sweden</option>
+                        <option value="Norway">Norway</option>
+                        <option value="Finland">Finland</option>
+                        <option value="Denmark">Denmark</option>
+                        <option value="Iceland">Iceland</option>
+                    </select>
                 </div>
             </div>
 

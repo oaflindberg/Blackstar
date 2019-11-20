@@ -39,15 +39,10 @@
 body {
     background: black;
     overflow-x: hidden;
+    font-family: AktivGrotesk;
 }
 
 .section-1 {
-    height: 100vh;
-    width: 100vw;
-    background: salmon;
-}
-
-.section-3 {
     height: 100vh;
     width: 100vw;
     background: salmon;

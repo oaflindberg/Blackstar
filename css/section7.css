@@ -38,6 +38,7 @@
 .email {
     width: 90vw;
     box-shadow: inset 0px 4px 9px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 5px rgb(255, 255, 255);
     border-radius: 6px;
     background: var(--gray);
     border: 2px inset white;
@@ -83,6 +84,8 @@
     border: 2px inset white;
     height: 40px;
 }
+
+/* TODO : TRY CHANGING THE ARROW ON THE SELECT ITEM, IF POSSIBLE.
 
 .label-email {
     padding-left: 2px;

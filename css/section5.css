@@ -1,7 +1,7 @@
 .section-5 {
     background: black;
-    background-image: url(images/background.png);
-    background-size: 100vw;
+    background-image: url(../images/background.png);
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
     background-position: center;
     font-family: AktivGrotesk;

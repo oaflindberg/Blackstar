@@ -4,19 +4,13 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: AktivGrotesk-Light;
-    src: url("/fonts/AktivGrotesk-Light.otf") format("opentype");
-}
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    font-family: AktivGrotesk-Light;
-
-    font-size: 20px;
+    font-family: AktivGrotesk, sans-serif;
+    font-weight: 300;
     background-color: black;
 }
 
@@ -48,7 +42,7 @@ img {
     margin: 20px 0 30% 0;
 }
 
-a:hover { 
+.nav-links a:hover { 
     color: #00ff85;
 } 
 /* I haven't got the hover to work on the burger or list items yet */
@@ -93,13 +87,30 @@ a:hover {
         padding-left: 20px;
     }
 
+    .nav-links .nav-active li:hover { 
+        color: #00ff85;
+        transform: scale(1.1);
+        transition: transform 0.2s ease;
+    } 
+
+    #line1:hover + #line2 { 
+        background-color: #00ff85;
+    }
+    #line2:hover + #line1 { 
+        background-color: #00ff85;
+    }
+    #line1:hover, #line2:hover { 
+        background-color: #00ff85;
+    }
+    /* I haven't got the hover to work on the burger or list items yet */
+
     .nav-links li {
         opacity: 0;
     }
 
     .burger {
         display: block;
-        cursor: pointer;
+        /* cursor: pointer; */
     }
 
     .toggle1 {
@@ -138,3 +149,16 @@ a:hover {
     transform: rotate(45deg) translate(-5px,-1.5px);
 }
 
+/* tablet */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* desktop */
+@media screen 
+  and (min-width: 1200px) 
+  and (max-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+} 

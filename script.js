@@ -36,4 +36,5 @@ scrollToTop.addEventListener('click', (e) => {
         top: 0,
         behavior: "smooth",
     });
+    // window.pageYOffset: 0;
 })

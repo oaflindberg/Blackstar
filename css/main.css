@@ -13,7 +13,7 @@
 
 body {
     background: black;
-    overflow-x: hidden;
+    overflow: auto;
     font-family: AktivGrotesk;
 }
 

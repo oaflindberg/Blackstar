@@ -16,6 +16,7 @@ nav {
     font-family: AktivGrotesk, sans-serif;
     font-weight: 300;
     background-color: black;
+    z-index: 1;
 }
 
 img {
@@ -25,6 +26,7 @@ img {
 .logo {
     color: white;
     padding: 5px 20px;
+    z-index: 2;
 }
 
 .burger {
@@ -35,7 +37,7 @@ img {
 
 .nav-links {
     position: absolute;
-    right: 0px;
+    /* right: 0px; */
     height: 92vh;
     top: 8vh;
     background-color: black;
@@ -46,7 +48,7 @@ img {
     transform: translateX(100%);
     transition: transform 0.3s ease-out;
     padding-left: 20px;
-    z-index: 0;
+    z-index: 1;
 }
 
 .nav-links a {

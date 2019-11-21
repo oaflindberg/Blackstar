@@ -17,6 +17,7 @@ nav {
     font-weight: 300;
     background-color: black;
     z-index: 1;
+    overflow: none;
 }
 
 img {
@@ -37,18 +38,19 @@ img {
 
 .nav-links {
     position: absolute;
-    /* right: 0px; */
+    right: 0px;
     height: 92vh;
     top: 8vh;
     background-color: black;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
+    width: 100vw;
     transform: translateX(100%);
     transition: transform 0.3s ease-out;
     padding-left: 20px;
     z-index: 1;
+
 }
 
 .nav-links a {
@@ -72,6 +74,7 @@ img {
 }
 
 .nav-active {
+    display: flex;
     transform: translateX(0%);
 }
 
@@ -122,6 +125,18 @@ img {
     to {
         opacity: 1;
         transform: translateX(0px);
+    }
+}
+
+@keyframes navFade {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0%);
     }
 }
 

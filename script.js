@@ -7,6 +7,7 @@ const navSlide = () => {
     burger.addEventListener('click', () => {
         //Toggle Nav
         nav.classList.toggle('nav-active');
+        nav.style.animation = `navFade 0.4s ease`
 
         //Animate Links
         navLinks.forEach((link, index) => {

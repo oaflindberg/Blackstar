@@ -23,7 +23,7 @@ img {
 }
 
 .logo {
-    color: white; 
+    color: white;
     padding: 5px 20px;
 }
 
@@ -73,12 +73,13 @@ img {
     transform: translateX(0%);
 }
 
-.nav-active li:hover { 
+.nav-active li:hover {
     color: #00ff85;
-} 
+}
+
 /* I haven't got the hover to work on the burger or list items yet */
 
-.burger div{
+.burger div {
     width: 31px;
     height: 4px;
     border-radius: 6px;
@@ -92,20 +93,21 @@ img {
 }
 
 .toggle1 .line1 {
-    transform: rotate(-45deg) translate(-5px,1.5px);
+    transform: rotate(-45deg) translate(-5px, 1.5px);
 }
+
 .toggle1 .line2 {
-    transform: rotate(45deg) translate(-5px,-1.5px);
+    transform: rotate(45deg) translate(-5px, -1.5px);
 }
 
 .toggle2 {
     display: block;
     transform: translate(29vw, 75vh);
-    transition: transform 0.01s ease; 
+    transition: transform 0.01s ease;
     z-index: 1;
 }
 
-.toggle2 img {
+.toggle2>img {
     width: 120px;
 }
 
@@ -114,6 +116,7 @@ img {
         opacity: 0;
         transform: translateX(200px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0px);
@@ -121,20 +124,14 @@ img {
 }
 
 /* tablet */
-@media only screen 
-  and (min-width: 768px) 
-  and (max-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .toggle1 {
         transform: translateX(-88vw);
     }
 }
 
 /* desktop */
-@media screen 
-  and (min-width: 1200px) 
-  and (max-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 
     nav {
         display: flex;
@@ -163,7 +160,7 @@ img {
     .nav-links li:first-child {
         margin: 0 0 0 0;
     }
-    
+
     .nav-links li:last-child {
         margin: 0 0 0 0;
     }
@@ -175,7 +172,7 @@ img {
     .toggle2 {
         display: none;
     }
-  }
+}
 
 
 
@@ -185,6 +182,3 @@ img {
   and (max-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 } */
-
-
-

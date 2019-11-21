@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: AktivGrotesk-Regular;
-    src: url("/fonts/AktivGrotesk-Regular.otf") format("opentype");
+    font-family: AktivGrotesk-Light;
+    src: url("/fonts/AktivGrotesk-Light.otf") format("opentype");
 }
 
 nav {
@@ -14,13 +14,18 @@ nav {
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    font-family: AktivGrotesk-Regular;
+    font-family: AktivGrotesk-Light;
+
+    font-size: 20px;
     background-color: black;
 }
 
+img {
+    width: 60px;
+}
+
 .logo {
-    color: white;
-    font-size: 10px; 
+    color: white; 
     padding: 5px 20px;
     
 }

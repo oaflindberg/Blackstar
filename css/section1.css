@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: calc(100vh - 8vh);
+    height: calc(100% - 8%);
     width: 100vw;
 }
 

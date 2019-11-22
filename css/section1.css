@@ -2,8 +2,8 @@
     background-image: url(../images/new/delroean_studio_moblie.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    height: calc(100% - 8%);
+    background-position: fixed;
+    height: calc(100vh - 8vh);
     width: 100vw;
 }
 

@@ -3,9 +3,10 @@ const navSlide = () => {
     const nav = document.querySelector('.nav-links');
     const logo = document.querySelector('.logo');
     const navLinks = document.querySelectorAll('.nav-links li');
-
+    const navBar = document.querySelector('.navbar');
     burger.addEventListener('click', () => {
         //Toggle Nav
+        navBar.classList.toggle('navbar-fixed');
         nav.classList.toggle('nav-active');
         nav.style.animation = `navFade 250ms ease`
 

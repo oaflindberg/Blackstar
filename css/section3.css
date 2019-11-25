@@ -14,18 +14,20 @@
 .h1-information {
     font-weight: bold;
     font-size: 34px;
+    margin-top: 2vh;
 }
 
 .h3-information {
     font-weight: 300;
     font-size: 20px;
     color: var(--green);
-    /* text-align: center; */
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 11px;
 }
 
 .p-information {
     font-weight: 300;
     font-size: 14px;
-
-    /* padding: 11px; */
+    margin-top: 2vh;
 }

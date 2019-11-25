@@ -87,6 +87,7 @@ img {
     flex-direction: column;
     justify-items: space-between;
     align-items: center;
+    margin-top: -13vh;
 }
 
 .nav-logo {

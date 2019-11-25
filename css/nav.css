@@ -188,14 +188,37 @@ img {
         justify-content: space-between;
     }
 
+    .logo {
+        display: flex;
+    }
+
     .nav-links {
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
-        transform: translateX(0%);
+        align-items: flex-end;
+        height: 50px;
         right: auto;
-        height: 0;
+        width: 55%;
         top: 0;
+    }
+
+    .navigation-links {
+        display: none;
+    }
+
+    .desktop-nav {
+        display: flex;
+        margin-left: 140px;
+        transition: 250ms ease;
+    }
+
+    .desktop-nav:hover {
+        color: var(--green);
+        transform: scale(1.1);
+    }
+
+    .nav-icons {
+        display: none;
     }
 
     .burger {

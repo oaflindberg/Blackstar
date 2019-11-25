@@ -7,6 +7,15 @@
     width: 100vw;
 }
 
+.sign-up {
+    transition: 250ms ease;
+}
+
+.sign-up:hover {
+    background: var(--green);
+    border: 2px solid var(--green);
+}
+
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
     .section-1 {
         background: black;

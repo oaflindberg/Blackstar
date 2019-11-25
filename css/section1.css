@@ -30,4 +30,13 @@
         width: 100vw;
 
     }
+
+    .hero-section {
+        margin-left: 98px;
+        top: -40px;
+    }
+
+    .sub-heading {
+        color: white;
+    }
 }

@@ -87,7 +87,6 @@
     height: 40px;
 }
 
-/* TODO : TRY CHANGING THE ARROW ON THE SELECT ITEM, IF POSSIBLE. */
 
 .label-email {
     padding-left: 2px;
@@ -124,6 +123,13 @@
     height: 48px;
     width: 167px;
     box-shadow: 0 0 5px rgb(255, 255, 255);
+    transition: 250ms ease;
+}
+
+.submit-button:hover {
+    background: var(--green);
+    border: 2px solid var(--green);
+    box-shadow: 0 0 5px var(--green);
 }
 
 .scroll-to-top {

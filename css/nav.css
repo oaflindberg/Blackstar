@@ -25,6 +25,10 @@ nav {
     width: 100%;
 }
 
+.desktop-nav {
+    display: none;
+}
+
 .navbar-fixed #logo {
     display: none;
 }
@@ -208,13 +212,21 @@ img {
 
     .desktop-nav {
         display: flex;
-        margin-left: 140px;
+        margin: 0 70px;
         transition: 250ms ease;
+    }
+
+    .last-nav {
+        margin-right: -15%;
     }
 
     .desktop-nav:hover {
         color: var(--green);
         transform: scale(1.1);
+    }
+
+    .nav-logo {
+        display: none;
     }
 
     .nav-icons {

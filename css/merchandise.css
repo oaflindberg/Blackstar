@@ -1,0 +1,126 @@
+.merch-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    height: calc(100vh - 8vh);
+    font-family: AktivGrotesk, sans-serif;
+}
+
+.carousel {
+    width: 100%;
+    position: relative;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.merchheading {
+    margin-top: 5%;
+}
+
+.merch-footer { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.merchsub-heading {
+    
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.pre-order {
+    margin-top: 20px;
+    margin-bottom: 15%;
+    height: 40px;
+    width: 163px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: transparent;
+    font-weight: 300;
+    color: white;
+    font-size: 12px;
+    transition: 250ms ease;
+}
+
+.pre-order:hover {
+    background: var(--green);
+    border: 2px solid var(--green);
+}
+
+.merchimg {
+    height: auto;
+    width: 70vw;
+}
+
+.slides {
+    display: block;
+}
+
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    height: 25%;
+    width: auto;
+    padding: 16px 0;
+    color: white;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 15%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

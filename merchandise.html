@@ -5,30 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blackstar merchandise</title>
+    <title>Merchandise</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/merchandise.css">
 </head>
 
 <body>
 
-    <nav>
+    <nav class="navbar">
         <div class="logo">
-            <img src="/images/logo.png" id="logo" alt="">
+            <img src="images/logo.svg" id="logo" alt="">
         </div>
         <ul class="nav-links">
-            <li><a href="a">Sign Up</a></li>
-            <li><a href="a">Home</a></li>
-            <li><a href="a">Marchandise</a></li>
-            <li><a href="a">About</a></li>
-            <li><a href="a">Products</a></li>
-            <li><a href="a">Language</a></li>
+            <li><a class="navigation-links" href="#">Sign Up</a></li>
+            <li><a class="navigation-links" href="#">Home</a></li>
+            <li><a class="navigation-links" href="#">Merchandise</a></li>
+            <li><a class="navigation-links desktop-nav" href="#">Shop</a></li>
+            <li><a class="navigation-links desktop-nav" href="#">About</a></li>
+            <li><a class="navigation-links desktop-nav" href="#">Folder</a></li>
+            <li><a class="navigation-links" href="#">Products</a></li>
+            <li><a class="navigation-links" href="#">Language</a></li>
+            <div class="icons">
+                <img class="nav-logo" src="images/logo.svg" alt="">
+                <div class="nav-icons-container">
+                    <img class="nav-icons" src="icons/facebook.svg" alt="">
+                    <img class="nav-icons" src="icons/instagram.svg" alt="">
+                    <img class="nav-icons" src="icons/twitter.svg" alt="">
+                </div>
+            </div>
         </ul>
         <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
+            <div class="line1" id="line1"></div>
+            <div class="line2" id="line2"></div>
         </div>
     </nav>
+    
+    <section class="merch-page">
+        <h1 class="merchheading">MERCHANDISE</h1>
+        <div class="carousel">
+            <div class = "slides fade">
+                
+                <img class="merchimg" src="images/Merch01.png" alt="">
+                <!-- <img class="merchimg" src="images/Merch01.png" alt="">
+                <img class="merchimg" src="images/Merch01.png" alt="">
+                <img class="merchimg" src="images/Merch01.png" alt=""> -->
+                <a class="prev" onclick="plusSlides(-1)"><img src="icons/prev.svg" alt=""></a>
+                <a class="next" onclick="plusSlides(1)"><img src="icons/next.svg" alt=""></a>
+                
+            </div>
+
+            
+
+
+
+
+        </div>
+        <div class="merch-footer">
+            <h6 class="merchsub-heading">Blackstar Watch</h6>
+            <button class="pre-order">PRE-ORDER</button>
+        </div>
+        
+        
+        
+        
+    
+    </section>
+
+    
 
     <script src="script.js"></script>
 </body>

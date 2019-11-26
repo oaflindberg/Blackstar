@@ -37,6 +37,10 @@
     cursor: pointer;
 }
 
+.footer-desktop {
+    display: none;
+}
+
 .footer-part-3 {
     height: 33%;
     display: flex;
@@ -91,6 +95,9 @@
         padding: 35px;
     }
 
+    .social-media-icons:hover {
+        fill: var(--green);
+    }
 
 
 }

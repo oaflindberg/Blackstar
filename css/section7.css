@@ -137,7 +137,6 @@
 .scroll-to-top {
     margin-top: 50px;
     cursor: pointer;
-
 }
 
 .divider-line {
@@ -163,28 +162,37 @@
     }
 
     .sign-up-container {
-        width: 50vw;
+        width: 35vw;
+        padding: 50px;
         margin-bottom: -150px;
     }
 
     .green-paragraph {
         font-weight: 300;
-        font-size: 30px;
+        font-size: 20px;
         line-height: 136%;
         text-align: center;
         letter-spacing: 0.03em;
     }
 
-    .form {}
 
     .email {
         width: 500px;
         height: 50px;
+        padding: 10px;
+        font-size: 14px;
     }
 
     .name,
     .country {
         width: 220px;
         height: 50px;
+    }
+
+    .email,
+    .name,
+    .country {
+        padding: 10px;
+        font-size: 14px;
     }
 }

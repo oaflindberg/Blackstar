@@ -1,7 +1,7 @@
 .merch-page {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     color: white;
     align-items: center;
     height: calc(100vh - 8vh);
@@ -9,7 +9,9 @@
 }
 
 .merchheading {
-    margin-top: 5%;
+    margin-top: 0.5%;
+    font-weight: Bold;
+    padding-right: 40%;
 }
 
 .merch-footer { 
@@ -26,7 +28,7 @@
 
 .pre-order {
     margin-top: 20px;
-    margin-bottom: 15%;
+    margin-bottom: 70%;
     height: 40px;
     width: 163px;
     border: 2px solid white;
@@ -54,7 +56,7 @@
     color: #fff;
     position: absolute;
     background: rgba(0,0,0, .6);
-    top: 45%;
+    top: 38%;
     z-index: 0;
     font-size: 2em;
     margin-top: -.75em;
@@ -68,29 +70,97 @@
 }
 
 .next {
-    right: 10%;
-    padding: 10px 5px 15px 10px;
+    right: 0%;
+    padding: 10px 5px 8px 10px;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
 }
 
 .prev {
-    left: 10%;
-    padding: 10px 10px 15px 5px;
+    left: 0%;
+    padding: 10px 10px 8px 5px;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
 }
 
+h6 {
+    position: absolute;
+    opacity: 0;
+    transition: opacity;
+}
+
+.merchtitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+h6.show {
+    opacity: 1;
+    transition: 0.25s opacity;
+}
+
 figure {
     position: absolute;
-    height: 80%;
+    width: 100%;
     opacity: 0;
-    transition: 1s opacity;
+    transition: opacity;
 }
 
 figure.show {
     opacity: 1;
-    width: 80%;
+    width: 100%;
     position: static;
     transition: 1s opacity;
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+
+    .merchheading {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-weight: Bold;
+        padding-right: 0%;
+    }
+
+    .next {
+        right: 26%;
+        padding: 10px 5px 8px 10px;
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+    
+    .prev {
+        left: 26%;
+        padding: 10px 10px 8px 5px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+    
+    figure {
+        position: absolute;
+        width: 48%;
+        opacity: 0;
+        transition: opacity;
+    }
+    
+    figure.show {
+        opacity: 1;
+        width: 48%;
+        position: static;
+        transition: 1s opacity;
+    }
+
+    .merchtitles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .pre-order {
+        margin-bottom: 40px;
+    }
 }

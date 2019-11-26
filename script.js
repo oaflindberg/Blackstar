@@ -43,5 +43,8 @@ scrollToTop.addEventListener('click', (e) => {
 });
 
 
+const button = document.querySelector('.download-btn');
 
-
+button.addEventListener('click', () => {
+    button.value = "✓";
+})

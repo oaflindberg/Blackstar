@@ -42,6 +42,11 @@
     font-size: 12px;
     font-weight: bold;
     border-radius: 6px;
+    transition: 250ms ease;
+}
+
+.download-btn:hover {
+    background-color: var(--green);
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {

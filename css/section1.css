@@ -18,6 +18,54 @@
     box-shadow: 0 0 5px var(--green);
 }
 
+.hero-section {
+    position: relative;
+    display: block;
+    justify-content: center;
+}
+
+.heading {
+    position: absolute;
+    font-family: AktivGrotesk, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 50px;
+    background-color: transparent;
+    color: white;
+    top: 262px;
+}
+
+.sub-heading {
+    position: absolute;
+    font-family: AktivGrotesk, sans-serif;
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #00FF85;
+    top: 320px;
+}
+
+.hero-mob-img {
+    position: absolute;
+    width: 100%;
+}
+
+.sign-up {
+    position: absolute;
+    height: 48px;
+    width: 167px;
+    top: 350px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: transparent;
+    margin-left: 20px;
+    font-family: AktivGrotesk, sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 18px;
+}
+
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
     .section-1 {
         background: black;

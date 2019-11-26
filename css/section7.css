@@ -45,25 +45,27 @@
     height: 40px;
 }
 
-.form-test1 {
+.form-part-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.form-part-2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.form-test2 {
+.form-part-3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 
 }
 
-.form-test3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 40px;
-}
+
 
 .name {
     width: 42.3vw;
@@ -148,8 +150,41 @@
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
 
+
+    .section-7 {
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
     .scroll-to-top,
     .divider-line {
         display: none;
+    }
+
+    .sign-up-container {
+        width: 50vw;
+        margin-bottom: -150px;
+    }
+
+    .green-paragraph {
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 136%;
+        text-align: center;
+        letter-spacing: 0.03em;
+    }
+
+    .form {}
+
+    .email {
+        width: 500px;
+        height: 50px;
+    }
+
+    .name,
+    .country {
+        width: 220px;
+        height: 50px;
     }
 }

@@ -61,6 +61,7 @@
 
     .footer-desktop {
         height: 8vh;
+        display: block;
     }
 
     .footer-desktop-1 {

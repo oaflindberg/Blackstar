@@ -76,6 +76,7 @@
     }
 
     .section-4-image-desktop {
+        display: block;
         height: 30vh;
         width: auto;
     }

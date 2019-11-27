@@ -1,8 +1,9 @@
 .section-1 {
+    background: #0C0D0D;
     background-image: url(../images/landing-page-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: fixed;
+    /* background-position: fixed; */
     height: calc(100vh - 8vh);
     width: 100vw;
 }

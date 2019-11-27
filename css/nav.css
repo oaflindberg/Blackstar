@@ -191,6 +191,7 @@ nav {
     nav {
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .logo {
@@ -200,11 +201,11 @@ nav {
     .nav-links {
         display: flex;
         flex-direction: row;
-        align-items: flex-end;
+        align-items: center;
         height: 50px;
         right: auto;
         width: 55%;
-        top: 0;
+        top: 7px;
     }
 
     .navigation-links {

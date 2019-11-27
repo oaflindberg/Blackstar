@@ -14,7 +14,7 @@
     padding-right: 40%;
 }
 
-.merch-footer { 
+.merch-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,10 +52,11 @@
     overflow: hidden;
 }
 
-.next, .prev { 
+.next,
+.prev {
     color: #fff;
     position: absolute;
-    background: rgba(0,0,0, .6);
+    background: rgba(0, 0, 0, .6);
     top: 38%;
     z-index: 0;
     font-size: 2em;
@@ -64,7 +65,8 @@
     user-select: none;
 }
 
-.next:hover, .prev:hover {
+.next:hover,
+.prev:hover {
     cursor: pointer;
     opacity: 1;
 }
@@ -127,25 +129,27 @@ figure.show {
 
     .next {
         right: 26%;
+        top: 43%;
         padding: 10px 5px 8px 10px;
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
     }
-    
+
     .prev {
         left: 26%;
+        top: 43%;
         padding: 10px 10px 8px 5px;
         border-top-right-radius: 3px;
         border-bottom-right-radius: 3px;
     }
-    
+
     figure {
         position: absolute;
         width: 48%;
         opacity: 0;
         transition: opacity;
     }
-    
+
     figure.show {
         opacity: 1;
         width: 48%;
@@ -158,6 +162,10 @@ figure.show {
         flex-direction: column;
         align-items: center;
         padding-top: 20px;
+    }
+
+    .merchsub-heading {
+        margin-top: 2vh;
     }
 
     .pre-order {

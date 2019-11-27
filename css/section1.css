@@ -26,10 +26,11 @@
 
 .heading {
     position: absolute;
-    font-family: AktivGrotesk, sans-serif;
-    font-weight: bold;
+    font-family: 'Aldrich', sans-serif;
     margin-left: 20px;
-    font-size: 50px;
+    font-size: 46px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
     background-color: transparent;
     color: white;
     top: 262px;

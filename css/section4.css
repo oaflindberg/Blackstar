@@ -45,6 +45,12 @@
     transition: 250ms ease;
 }
 
+.product-folder {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
 .download-btn:hover {
     background: var(--green);
     border: 2px solid var(--green);

@@ -56,4 +56,3 @@ const signup = document.querySelector('.sign-up');
 setTimeout(function() {heading.classList.add('show')},500);
 setTimeout(function() {subheading.classList.add('show')},1200);
 setTimeout(function() {signup.classList.add('show')},1900);
-

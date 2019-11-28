@@ -16,4 +16,4 @@ This is a group project completed by a team of Computer Graphic Designers, Digit
 * Lovisa Hazard - Computer Graphics
 
 ## License
-This assignment is licensed under the MIT License. You can get all the details [here](https://github.com/AltDom/wu19-fakenews/blob/master/LICENSE).
+This assignment is licensed under the MIT License. You can get all the details [here](https://github.com/oaflindberg/Blackstar/blob/master/LICENSE).

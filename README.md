@@ -1,11 +1,11 @@
 # Blackstar
 
-https://blackstar05.netlify.com/
-
 <img src="https://media3.giphy.com/media/lidqP5DHoMTCg/giphy.gif?cid=790b7611ced4a58e4e651e95b61f877cfec3f21baf2b57b9&rid=giphy.gif" width="100%">
 
 ## About This Project
 This is a group project completed by a team of Computer Graphic Designers, Digital Designers and Web Developers from Yrgo. 
+
+## https://blackstarzerofive.netlify.com/
 
 ## Designers and Developers
 * Andreas Lindberg - Web Developer

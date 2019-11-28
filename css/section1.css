@@ -19,6 +19,14 @@
     box-shadow: 0 0 5px var(--green);
 }
 
+.sign-up-btn-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.115em;
+    text-decoration: none;
+}
+
 .hero-section {
     position: relative;
     display: block;
@@ -45,7 +53,7 @@
     font-size: 20px;
     background-color: transparent;
     color: #00FF85;
-    top: 320px;
+    top: 310px;
 }
 
 .hero-mob-img {
@@ -84,9 +92,5 @@
     .hero-section {
         margin-left: 98px;
         top: -40px;
-    }
-
-    .sub-heading {
-        /* color: white; */
     }
 }

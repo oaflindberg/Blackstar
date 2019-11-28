@@ -28,10 +28,11 @@
 .product-paragraph {
     font-weight: 300;
     font-size: 20px;
-
+    line-height: 26px;
     text-align: center;
     padding: 20px;
     line-height: 23px;
+    margin-bottom: 15px;
 }
 
 .product-info-2 {
@@ -52,24 +53,27 @@
 }
 
 .download-btn {
-    height: 40px;
-    width: 163px;
+    width: 166px;
+    height: 48px;
     border: 2px solid white;
     background: black;
     box-shadow: 0 0 5px rgb(255, 255, 255);
     color: white;
     text-transform: uppercase;
-    font-size: 12px;
-    font-weight: bold;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 300;
     border-radius: 6px;
     transition: 250ms ease;
     margin-top: 20px;
 }
 
 .product-folder {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--green);
 }
 
 .download-btn:hover {
@@ -95,6 +99,7 @@
 
     .product-paragraph {
         padding: 10px 100px;
+        margin-bottom: -20px;
         text-align: center;
     }
 
@@ -104,8 +109,8 @@
 
     .section-4-image-desktop {
         display: block;
-        height: 30vh;
-        width: auto;
+        width: 30vw;
+        height: auto;
     }
 
     .product-info {
@@ -118,6 +123,6 @@
         margin-top: 50px;
         height: 50px;
         width: 264px;
-        margin-bottom: 150px;
+        margin-bottom: 50px;
     }
 }

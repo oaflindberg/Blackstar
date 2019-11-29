@@ -42,13 +42,6 @@ scrollToTop.addEventListener('click', (e) => {
     // window.pageYOffset: 0;
 });
 
-
-const button = document.querySelector('.download-btn');
-
-button.addEventListener('click', () => {
-    button.value = "✓";
-})
-
 const heading = document.querySelector('.heading');
 const subheading = document.querySelector('.sub-heading');
 const signup = document.querySelector('.sign-up');
